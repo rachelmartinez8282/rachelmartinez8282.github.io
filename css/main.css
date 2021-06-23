@@ -1,0 +1,509 @@
+/* POLICES */
+
+@font-face {
+    font-family:honest ;
+    src: url('../fonts/Honest\ Darling.ttf');
+}
+@font-face {
+    font-family:abril ;
+    src: url('../fonts/AbrilFatface-Regular.ttf');
+}
+@font-face {
+    font-family:notor ;
+    src: url('../fonts/NotoSansHK-Regular.otf');
+}
+@font-face {
+    font-family:notobold;
+    src: url('../fonts/NotoSansHK-Bold.otf');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+/* FONT FLEURI */
+
+div.fleur1{
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 883px;
+    left: 150px;
+    animation: animfleurs 5s infinite linear;
+}
+
+div.fleur2{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 2372px;
+    left: 1065px;
+    animation: animfleurs 5s infinite linear;
+}
+div.fleur3{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 1918px;
+    left: 130px;
+    animation: animfleurs 5s infinite linear;
+}
+
+div.fleur5{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 596px;
+    left: 117px;
+    animation: animfleurs 5s infinite linear;
+}
+div.fleur6{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 2900px;
+    left: 100px;
+    animation: animfleurs 5s infinite linear;
+}
+
+div.fleur8{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 969px;
+    left: 75px;
+    animation: animfleurs 5s infinite linear;
+}
+div.fleur9{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 3065px;
+    left: 1223px;
+    animation: animfleurs 5s infinite linear;
+}
+div.fleur10{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 2970px;
+    left: 100px;
+    animation: animfleurs 5s infinite linear;
+}
+
+div.fleur13{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 2500px;
+    left: 1310px;
+    animation: animfleurs 5s infinite linear;
+}
+div.fleur14{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 3168px;
+    left: 1136px;
+    animation: animfleurs 5s infinite linear;
+}
+div.fleur15{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 1500px;
+    left: 1620px;
+    animation: animfleurs 5s infinite linear;
+}
+div.fleur16{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 932px;
+    left: 1486px;
+    animation: animfleurs 5s infinite linear;
+}
+div.fleur17{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 1840px;
+    left: 100px;
+    animation: animfleurs 5s infinite linear;
+}
+div.fleur18{
+
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 3100px;
+    left: 1401px;
+    animation: animfleurs 5s infinite linear;
+}
+
+/* HEADER */
+
+/* BANIERE FLEURIE */
+
+#baniere {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#imgfleur {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 400px;
+    background-image: url(../images/baniere_fleurs.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+}
+#cercle {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: white;
+}
+#nom {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#50162e;
+    font-family: 'honest';
+    font-size: 3rem;
+}
+#titre {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:rgba(80, 22, 46, 0.7);
+    font-family: 'abril';
+    font-size: 2rem;
+}
+nav.reseaux {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+ul.reseaux {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+li.reseaux {
+    padding: 0;
+    margin: 40px 10px;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    transition: 0.2s transform;
+}
+li.reseaux:hover {
+    transform:scale(1.4);
+    
+}
+li.reseaux img {
+    width:100%;
+}
+
+/* MENU NAVIGATION */
+
+nav.menu {
+    margin:10px 0px;
+    padding: 0;
+    height: 40px;
+    background: linear-gradient( white,70%, #f4de4d);
+}
+ul.menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+li.menu {
+    padding: 0;
+    font-family: 'notor';
+    color: #50162e;
+    font-size: 1.2rem;
+}
+li.menu:hover {
+    text-decoration: underline;
+
+   
+}
+a {
+    text-decoration: none;
+}
+
+/* SECTION 1 QUI SUIS JE */
+
+section.moi {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+div.moiun {
+    grid-column: 2;
+    width: 400px;
+    height: 200px;
+    font-family: "notor";
+    text-align: justify;
+}
+#liencv {
+    margin:  40px 0;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+a.lienun {
+    font-family:'honest' ;
+    text-align: center;
+    color: rgb(131, 200, 180);
+    font-size: 2rem;
+}
+
+a.lienun:hover{
+
+    font-size: 2.2rem;
+    text-decoration:underline;
+}
+
+div.moideux {
+    grid-column: 3;
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/avatar.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* SECTION MES TRAVAUX */
+
+
+main{
+    margin: 300px auto;
+
+}
+
+
+h2 {
+    margin:50px auto;
+    text-align:center;
+    box-sizing: border-box;
+    color:rgba(80, 22, 46, 0.7);
+    font-family: 'abril';
+    font-size: 2rem;
+}
+
+h2#quisuisje {
+    margin:20px
+}
+p{
+    font-family: 'notor';
+    color: #50162e;
+}
+
+h3 {
+    margin:50px auto;
+    text-align:center;
+    box-sizing: border-box;
+    color:#50162e;
+    font-family: 'honest';
+    font-size: 2rem;
+}
+
+section.travaux {
+    margin: 50px 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+div.imgtravaux {
+    height: 400px;
+    width: 100%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:0;
+}
+
+.linktravaux1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(244, 165, 167, 0.7);
+    text-align: center;
+    font-family: 'abril';
+    font-size: 1.5rem;
+    color:#50162e;
+}
+.linktravaux1:hover {
+    font-size: 2.5rem; 
+    width: 400px;
+    height: 400px;
+    background-color: rgb(244, 165, 167);
+    border-radius: 5%;
+}
+.linktravaux2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(241, 223, 77, 0.7);
+    text-align: center;
+    font-family: 'abril';
+    font-size: 1.5rem;
+    color:#50162e;
+}
+.linktravaux2:hover {
+    font-size: 2.5rem; 
+    width: 400px;
+    height: 400px;
+    background-color: rgb(241, 223, 77);
+    border-radius: 5%;
+}
+.linktravaux3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(131, 200, 180, 0.7);
+    text-align: center;
+    font-family: 'abril';
+    font-size: 1.5rem;
+    color:#50162e;
+}
+.linktravaux3:hover {
+    font-size: 2.5rem; 
+    width: 400px;
+    height: 400px;
+    background-color: rgb(131, 200, 180);
+    border-radius: 5%;
+}
+
+#img1 {
+    background-image: url("../images/alert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+#img2 {
+    background-image: url("../images/amok.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+#img3 {
+    background-image: url("../images/delicious.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+#img4 {
+    background-image: url("../images/chaperon_rouge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+#img5 {
+
+    background-image: url("../images/mister_beard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+#img6 {
+
+    background-image: url("../images/nathalie_novi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+#img7 {
+
+    background-image: url("../images/pidgin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+#img8 {
+
+    background-image: url("../images/lire_c_partir.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+/* FOOTER - CONTACT */
+
+div.contact {
+    margin: auto 0;
+    text-align: center;
+    height: 50px;
+    font-family: 'notobold';
+    color: #50162e;
+}
+div.contact a {
+    color: #50162e;
+}
+div.contact a.fleche {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* ANIMATION */
+
+@keyframes animfleurs {
+
+    0% {transform: scaleY(1);}
+
+
+    50%{transform: scaleY(0.8);}
+
+
+    100% {transform: scaleY(1);}
+
+
+}
+

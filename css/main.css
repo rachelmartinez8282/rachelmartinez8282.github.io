@@ -507,3 +507,11 @@ div.contact a.fleche {
 
 }
 
+/* VERSION MOBILE */
+
+@media screen and (max-width:600px) {
+
+    div.animfleurs {
+
+        display: none;
+    }

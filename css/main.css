@@ -564,6 +564,7 @@ div.moiun {
     text-align: justify;
 }
 #liencv {
+    padding: 50px 50px 50px 50px;
     margin:  150px 0;
     width: 100%;
     height: 20px;

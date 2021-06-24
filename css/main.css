@@ -253,13 +253,13 @@ ul.menu {
     align-items: center;
     list-style: none;
 }
-li.menu {
+li.menu a {
     padding: 0;
     font-family: 'notor';
     color: #50162e;
     font-size: 1.2rem;
 }
-li.menu:hover {
+li.menu a:hover {
     text-decoration: underline;
 
    

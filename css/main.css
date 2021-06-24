@@ -237,6 +237,7 @@ li.reseaux img {
 
 /* MENU NAVIGATION */
 
+
 nav.menu {
     margin:10px 0px;
     padding: 0;
@@ -507,3 +508,185 @@ div.contact a.fleche {
 
 }
 
+/******************************************************* VERSION MOBILE ***********************************************************************/
+
+@media screen and (max-width:600px) {
+
+    /* BANIERE */
+
+    #cercle{
+        width: 300px;
+        height: 300px;
+    }
+    h1{
+        width: 500px;
+    }
+
+    #nom {
+        margin: 0 auto;
+        box-sizing: border-box;
+        color:#50162e;
+        font-family: 'honest';
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #titre {
+        margin: 0 auto;
+        box-sizing: border-box;
+        color:rgba(80, 22, 46, 0.7);
+        font-family: 'abril';
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* MENU */
+
+.menu{
+    display: none;
+}
+ 
+/* SECTION MOI */
+
+
+section.moi {
+    
+    width: 100%;
+    display:block;
+
+}
+div.moiun {
+    width: 100%;
+    height: 200px;
+    font-family: "notor";
+    text-align: justify;
+}
+#liencv {
+    margin:  100px 0;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+a.lienun {
+    font-family:'honest' ;
+    text-align: center;
+    color: rgb(131, 200, 180);
+    font-size: 1.5rem;
+}
+
+a.lienun:hover{
+
+    font-size: 1.5rem;
+    text-decoration:underline;
+}
+
+div.moideux {
+display: none;
+}
+
+/* SECTION MES TRAVAUX */
+
+main{
+    margin: 100px 0;
+    width: 100%;
+}
+
+section.travaux {
+
+    margin:0 auto;
+    display: block;
+    justify-content: center;
+    
+}
+
+div.imgtravaux {
+    height: 300px;
+    width: 100%;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:0;
+}
+.linktravaux1:hover {
+
+    width: 300px;
+    height: 300px;
+
+}
+.linktravaux2:hover {
+
+    width: 300px;
+    height: 300px;
+
+}
+.linktravaux3:hover {
+
+    width: 300px;
+    height: 300px;
+
+}
+div.imgtravauxvide{
+    display: none;
+}
+    /* FONT FLEURI */
+
+div.fleur1{
+   display: none;
+}
+
+div.fleur2{
+
+    display: none;
+}
+div.fleur3{
+
+    display: none;
+}
+
+div.fleur5{
+
+    display: none;
+}
+div.fleur6{
+
+    display: none;
+}
+
+div.fleur8{
+
+    display: none;
+}
+div.fleur9{
+    display: none;
+}
+div.fleur10{
+
+    display: none;
+}
+
+div.fleur13{
+
+    display: none;
+}
+div.fleur14{
+
+    display: none;
+}
+div.fleur15{
+
+    display: none;
+}
+div.fleur16{
+
+    display: none;
+}
+div.fleur17{
+
+    display: none;
+}
+div.fleur18{
+
+    display: none;
+}
+}

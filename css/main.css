@@ -284,6 +284,13 @@ div.moiun {
     font-family: "notor";
     text-align: justify;
 }
+
+#lienformasup:hover  {
+    
+    text-decoration:underline;
+
+}
+
 #liencv {
     grid-column: 2;
     grid-row: 2;
@@ -384,6 +391,7 @@ div.imgtravaux {
     height: 400px;
     background-color: rgb(244, 165, 167);
     border-radius: 5%;
+    transition: 1s;
 }
 .linktravaux2 {
     display: flex;
@@ -403,6 +411,7 @@ div.imgtravaux {
     height: 400px;
     background-color: rgb(241, 223, 77);
     border-radius: 5%;
+    transition: 1s;
 }
 .linktravaux3 {
     display: flex;
@@ -422,6 +431,7 @@ div.imgtravaux {
     height: 400px;
     background-color: rgb(131, 200, 180);
     border-radius: 5%;
+    transition: 1s;
 }
 
 #img1 {
